@@ -23,3 +23,13 @@ go.work.sum
 
 # env file
 .env
+
+# user define
+.cpr
+.DS_Store
+temp
+.clj-kondo
+.lsp
+.vscode
+.trunk
+.gitignore
