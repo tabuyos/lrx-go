@@ -28,6 +28,7 @@ func Test_Chan(t *testing.T) {
 	}()
 
 	for v := range 10 {
+		fmt.Printf("%d\n", v)
 		ch <- strconv.Itoa(v)
 	}
 
